@@ -2,7 +2,7 @@
 
 USE TheSecondBase
 
-CREATE TABLE TheSecondBase(
+CREATE TABLE Students(
 	[ID] INT Primary key Identity(1,1),
 	[Name] NVARCHAR(MAX) NOT NULL,
 	[Group] NVARCHAR(MAX) NOT NULL,
